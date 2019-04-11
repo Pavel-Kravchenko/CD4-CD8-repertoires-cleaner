@@ -34,8 +34,6 @@ Then cd in CD4-CD8-repertoires-cleaner</br>
 
 ## Now you are ready to start.
 
-If you like to clean a pair of files, you have to specify their names and the directory. 
-
 Your files should have a header like this in arbitrary order: </br>
 ```count    | frequency |    CDR3nt    | CDR3aa |    V |    D |    J |    Vend |    Dstart |    Dend |    Jstart```</br>
 
@@ -48,10 +46,19 @@ Examples:
 as_Dv_PB_4.txt or as_Dv_PB_4_p2.txt
 </br>
 
+If you like to clean a pair of files, you have to specify their names and the directory. 
+
 Command: </br>
 
 ```Rscript files_cleaner_2.0.R as_Dv_PB_4.txt as_Dv_PB_8.txt `pwd` ./result/``` </br>
 where `as_Dv_PB_4.txt` and `as_Dv_PB_8.txt` are files to be cleaned, `pwd` is their directory, and `./result/` is the output dir.
+</br>
+If you like to clean sets of files, you have to type flag ```-d``` and specify only directories names. 
+
+Command: </br>
+
+```Rscript files_cleaner_2.0.R -d ./CD8_seq/ ./CD4_seq/ ./result/``` </br>
+where `./CD4_seq/` and `./CD4_seq/` are directories with files to be cleaned, `./result/` is the output directory.</br>
 
 Wait until the program is completed.
 
