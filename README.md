@@ -13,7 +13,9 @@ The pipeline is available only for <i>Linux</i> users </br>
 Make sure that you have installed all components:
 <ul>
 <li>R and R-Studio with basic packages https://www.rstudio.com/
-```install.packages(c("data.table", "dplyr", "readr"))```
+  <ul>
+<li>```install.packages(c("data.table", "dplyr", "readr"))```
+</ul>
 </ul>
 
 
@@ -23,8 +25,8 @@ Make sure that you have installed all components:
 
 First of all, you have to ```clone``` this directory</br></br>
 ```git clone https://github.com/Pavel-Kravchenko/CD4-CD8-repertoires-cleaner/```</br></br>
-Then ```cd``` in Evolution-of-mitochondrial-DNA-inheritance-patterns</br></br>
-```cd Evolution-of-mitochondrial-DNA-inheritance-patterns```</br></br>
+Then ```cd``` in CD4-CD8-repertoires-cleaner</br></br>
+```cd CD4-CD8-repertoires-cleaner```</br></br>
 
 Now you are ready to start.
 If you like to cleat a pair of files, you have to specify their names and the directory.
