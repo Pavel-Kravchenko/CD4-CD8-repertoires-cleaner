@@ -14,7 +14,7 @@ Make sure that you have installed all the components:
 <li>
 R and R-Studio with basic packages https://www.rstudio.com/
 <ul>
-<li>```install.packages(c("data.table", "dplyr", "readr"))```
+<li>install.packages(c("data.table", "dplyr", "readr"))
 </ul>
 </ul>
   
@@ -39,7 +39,7 @@ If you like to clean a pair of files, you have to specify their names and the di
 Your files should have a header like this in arbitrary order: </br>
 ```count    | frequency |    CDR3nt    | CDR3aa |    V |    D |    J |    Vend |    Dstart |    Dend |    Jstart```</br>
 
-And must have file name coding like `[disease or another flag]\_[donor or another flag]\_[tissue or another flag]\_[CD status or another flag]\_[experiment # or nothing].txt`
+And must have file name coding like `[disease or another flag]_[donor or another flag]_[tissue or another flag]_[CD status or another flag]_[experiment # or nothing].txt`
 
 Examples:
 
