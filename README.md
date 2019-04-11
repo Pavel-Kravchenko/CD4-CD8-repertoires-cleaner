@@ -1,20 +1,20 @@
-#CD4-CD8-repertoires-cleaner
+# CD4-CD8-repertoires-cleaner
 This is a repo of CD4-CD8-repertoires-cleaner.
 
 This code is a part of lsfg TCR motive discovery project.
 
 It filters CD4/CD8 tables after MIXCR (https://mixcr.readthedocs.io/en/master/).
 
-##Before you start
+## Before you start
 The pipeline is available only for Linux users 
 Make sure that you have installed all the components:
 
 R and R-Studio with basic packages https://www.rstudio.com/
 ```install.packages(c("data.table", "dplyr", "readr"))```
 
-##Getting started
+# Getting started
 
-#Installation
+## Installation
 First of all, you have to clone this directory
 
 ```git clone https://github.com/Pavel-Kravchenko/CD4-CD8-repertoires-cleaner/```
@@ -24,7 +24,7 @@ Then cd in CD4-CD8-repertoires-cleaner
 ```cd CD4-CD8-repertoires-cleaner```
 
 
-##Now you are ready to start.
+## Now you are ready to start.
 
 If you like to clean a pair of files, you have to specify their names and the directory. 
 
@@ -43,7 +43,7 @@ Wait until the program is completed.
 
 You are expected to receive a directory with cleaned and dropped clone files.
 
-##Contact me
+## Contact me
 Feel free to contact me for any suggestions or critique.
 
 Email: pavel-kravchenk0@yandex.ru
