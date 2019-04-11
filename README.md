@@ -5,10 +5,11 @@ This code is a part of lsfg TCR motive discovery project.
 
 It filters CD4/CD8 tables after MIXCR (https://mixcr.readthedocs.io/en/master/).
 
-</br>
+
 ## Before you start
 The pipeline is available only for Linux users 
 Make sure that you have installed all the components:
+
 <ul>
 <li>
 R and R-Studio with basic packages https://www.rstudio.com/
@@ -17,7 +18,7 @@ R and R-Studio with basic packages https://www.rstudio.com/
 </ul>
 </ul>
   
-  </br></br>
+</br></br>
   
 # Getting started
 
@@ -45,7 +46,8 @@ Examples:
 as_Dv_PB_4.txt or as_Dv_PB_4_p2.txt
 </br>
 
-Command: 
+Command: </br>
+
 ```Rscript files_cleaner_2.0.R as_Dv_PB_4.txt as_Dv_PB_8.txt `pwd` ./result/``` </br>
 where `as_Dv_PB_4.txt` and `as_Dv_PB_8.txt` are files to be cleaned, `pwd` is their directory, and `./result/` is the output dir.
 
