@@ -44,7 +44,7 @@ And must have file name coding like
 Examples:
 
 as_Dv_PB_4.txt or as_Dv_PB_4_p2.txt
-</br>
+</br></br>
 
 If you like to clean a pair of files, you have to specify their names and the directory. 
 
@@ -52,7 +52,7 @@ Command: </br>
 
 ```Rscript files_cleaner_2.0.R as_Dv_PB_4.txt as_Dv_PB_8.txt `pwd` ./result/``` </br>
 where `as_Dv_PB_4.txt` and `as_Dv_PB_8.txt` are files to be cleaned, `pwd` is their directory, and `./result/` is the output dir.
-</br>
+</br></br>
 If you like to clean sets of files, you have to type flag ```-d``` and specify only directories names. 
 
 Command: </br>
