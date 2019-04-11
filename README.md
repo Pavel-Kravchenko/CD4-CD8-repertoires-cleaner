@@ -29,13 +29,18 @@ Then ```cd``` in CD4-CD8-repertoires-cleaner</br></br>
 ```cd CD4-CD8-repertoires-cleaner```</br></br>
 
 Now you are ready to start.
-If you like to cleat a pair of files, you have to specify their names and the directory.
+
+If you like to clean a pair of files, you have to specify their names and the directory.
+Your files should have a header like this in arbitrary order: 
+```count	frequency	CDR3nt	CDR3aa	V	D	J	Vend	Dstart	Dend	Jstart```
+
+
 For exaple command 
 ```Rscript files_cleaner_2.0.R as_Dv_PB_4.txt as_Dv_PB_8.c.txt `pwd` ./result/``` where `as_Dv_PB_4.txt` and  `as_Dv_PB_8.c.txt` are files to be cleaned, `pwd` is their directory, and `./result/` is the output dir.
 
 Wait until the program is completed.
 
-You are expected to receive such demo results in Species_files:
+You are expected to receive a directory with cleaned and dropped clone files.
 
 ## Contact me
 
