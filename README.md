@@ -32,11 +32,16 @@ Now you are ready to start.
 
 If you like to clean a pair of files, you have to specify their names and the directory.
 Your files should have a header like this in arbitrary order: 
-```count	frequency	CDR3nt	CDR3aa	V	D	J	Vend	Dstart	Dend	Jstart```
+```count	| frequency |	CDR3nt	| CDR3aa |	V |	D |	J |	Vend |	Dstart |	Dend |	Jstart```
+And must have file name coding like [disease or other flag]_[donor or other flag]_[tissue or other flag]_[CD status or other flag]_[experiment # or nothing].txt
 
+Examples:
 
-For exaple command 
-```Rscript files_cleaner_2.0.R as_Dv_PB_4.txt as_Dv_PB_8.c.txt `pwd` ./result/``` where `as_Dv_PB_4.txt` and  `as_Dv_PB_8.c.txt` are files to be cleaned, `pwd` is their directory, and `./result/` is the output dir.
+as_Dv_PB_4.txt
+as_Dv_PB_4_p2.txt
+
+Command:
+```Rscript files_cleaner_2.0.R as_Dv_PB_4.txt as_Dv_PB_8.txt `pwd` ./result/``` where `as_Dv_PB_4.txt` and  `as_Dv_PB_8.txt` are files to be cleaned, `pwd` is their directory, and `./result/` is the output dir.
 
 Wait until the program is completed.
 
